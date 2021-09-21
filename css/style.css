@@ -1,0 +1,410 @@
+
+body{
+    width: 1440px;
+    margin:0px auto;
+    padding: 0px;
+    
+}
+header {
+    border-top: 4px solid #94d6d0;
+    padding-top: 25px;
+}
+.logo{
+    width: 193px;
+    height: 24px;
+}
+nav1{
+    display: flex;
+    justify-content: space-between;
+}
+.nav-1{
+    display: flex;
+    align-self: center;
+    margin-left: 24px;
+}
+.nav-1-icon{
+    margin-left: 43px;
+    margin-right: 43px;
+}
+.nav-1 a{
+    font-family: serif;
+    font-size: 12px;
+    margin-left: 10px;
+    text-decoration: none;
+    font-weight: 550;
+    color: #000;
+}
+.nav-2{
+    display: flex;
+    align-self: center;
+    margin-right: 26px;
+}
+.nav-2 a{
+    font-family: serif;
+    font-size: 12px;
+    margin-right: 43px;
+    margin-left: 12px;
+    text-decoration: none;
+    font-weight: 550;
+    color: #000;
+}
+.nav-3{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 14px;
+}
+.navbar{
+    margin-left: 57px;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: bold;
+    color: #000;
+}
+
+/*banner-1 css*/ 
+banner-1{
+    width: 1440px;
+    height: 504.4px; 
+} 
+.Banner{
+    position: relative;
+}
+.bannerimg{
+    width: 100%;
+    height: 100%;
+}
+.bannercard{
+  position: absolute;
+  left: 71px;
+  top: 98px;  
+}
+.bannercard h2{
+    font-size: 40px;
+    margin-bottom: 11px;
+}
+.bannercard p{
+    font-size: 15px;
+    font-weight: 550;
+    margin-bottom: 21px;
+}
+.bannerBrowse{
+    font-size: 14px;
+    color: #000;
+    font-weight: 550;
+    text-decoration: none;
+    width: 108px;
+    height: 40px;
+    border: solid 1px;
+    padding-top: 9px;
+    padding-bottom: 9px;
+    padding-right: 26px;
+    padding-left: 26px;
+    background-color: #fff;
+}
+/* procuct css */
+product{
+    width: 1440px;
+    height: 720px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.productTitle{
+    font-size: 33px;
+    font-weight: 550;
+    margin-top: 97.6px;
+    margin-bottom: 27px;
+}
+.por-img{
+    
+    display: flex;
+    justify-content: center;
+    position: relative;
+    margin-bottom: 105px;
+    
+    
+}
+.productimg{
+    
+    height: 323px;
+    margin: 0 10px
+    
+   
+}
+.productimg img{
+    width: 100%;
+    height: 100%;
+    
+}
+
+.por-icon{
+    
+    top: 282px;
+    position: absolute;
+    
+    
+}
+.productBroser{
+    text-decoration: none;
+    font-size: 14px;
+    border: solid 1px;
+    padding: 10px 26px;
+    color: #000;
+    font-weight: 550;
+}
+/* new css */
+.newTitle{
+    font-size: 24px;
+    margin-bottom: 24px;
+    font-weight: 550;
+}
+new{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-top: 2px solid #94d6d0;
+    border-bottom: 2px solid #94d6d0;
+    padding-top: 63px;
+    padding-bottom: 46px;
+    padding-right: 67px;
+    padding-left: 67px;
+    margin-left: 54px;
+    margin-right: 54px;
+    
+}
+.newcard{
+   display: flex; 
+   
+   
+   
+}
+.newcard-1{
+    width: 419px;
+    height: 419px;
+    position: relative;
+    margin: 0px 12.5px;
+    
+}
+.newcard-1-img{
+    width: 100%;
+    height: 100%;
+   
+}
+.smellcard{
+   
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 14px;
+    font-weight: 550;
+    line-height: 1px;
+    position: absolute;
+    width: 419px;
+    top: 233px;
+   
+}
+.smellcard-1{
+display: flex;
+margin-top: 18px;
+
+
+}
+.smellcard-icon{
+    width: 14px;
+    height: 14%;
+    margin-top: 7px;
+
+}
+/* store css */
+store{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 882px;
+    border-bottom: 2px solid #94d6d0;
+    margin-right: 53px;
+    margin-left: 53px;
+    padding-bottom: 23px;
+}
+.storeTitle{
+    font-size: 33px;
+    margin-top: 34px;
+    margin-bottom: 43px;
+}
+.storecard{
+    display: flex;
+}
+.storecard-1{
+    margin-right: 56px;
+    margin-left: 147px;
+    width: 517px;
+    height: 646px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.storecard-2{
+    margin-right: 147px;
+    margin-left: 56px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 517px;
+    height: 646px;
+}
+.storecard-img{
+    width: 100%;
+    height: 100%;
+}
+.store-smellcard{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.store-smellcard h1{
+    font-size: 33px;
+    margin-bottom: 14px;
+}
+.store-smellcard p{
+    font-size: 14px;
+}
+/* push-browse css */
+push-browse{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 424px;
+}
+.push-browseTitle{
+    font-size: 33px;
+    margin-top: 13px;
+    margin-bottom: 11px;
+}
+.push-browseTitle-p{
+    font-size: 14px;
+    margin-bottom: 33px;
+}
+.push-browsecard{
+    display: flex;
+}
+.push-browse-card{
+    width: 207px;
+    height: 207px;
+    margin-left: 9px;
+    margin-right: 9px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.push-browse-card img{
+    width: 100%;
+    height: 100%;
+}
+.push-browse-card p{
+    margin-top: 6px;
+    margin-bottom: 62px;
+    font-weight: 550;
+}
+/* banner-2 css */
+banner-2{
+    width: 1440px;
+    height: 504.4px;
+    position: relative; 
+    
+}
+.banner-2-img{
+    width: 1440px;
+    height: 504.4px;
+   display: flex; 
+   margin-bottom: 120px;
+}
+.banner-2-smellcard{
+    width: 247px;
+    position: absolute;
+    top: 193px;
+    left: 117px;
+}
+.banner2icon{
+    font-size: 14px;
+    font-weight: 550;
+}
+/* experience css */
+experience{
+    background-color:  #fafafa;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-bottom: 2px solid #94d6d0;
+    
+    
+
+}
+.experienceTitle{
+    margin-top: 21px;
+    margin-bottom: 91.3px;
+    font-size: 33px;
+    font-weight: 550;
+}
+.experience-bigcard{
+    width: 100%;
+    display: flex;
+    margin-bottom: 203px;
+
+}
+.experience-card-1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 148px;
+    font-size: 14px;
+    line-height: 12px;
+    font-weight: 550;
+}
+.experience-card-2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 178px;
+    margin-right: 127px;
+    font-size: 14px;
+    line-height: 12px;
+    font-weight: 550;
+}
+.experience-card-3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 96px;
+    font-size: 14px;
+    line-height: 12px;
+    font-weight: 550;
+}
+.exp-icon{
+    margin-left: 5px;
+}
+.experience-bigcard a{
+    margin-top: 17px;
+    text-decoration: none;
+    color: black
+}
+/* frontpage css */
+front-page{
+
+ width: 1440px;
+ height: 58px;
+    
+}
+front-page p{
+    margin-left: 706px;
+    margin-right: 706px;
+    font-size: 14px;
+    font-weight: 550;
+    margin-top: 20px;
+    margin-bottom: 17px;
+    
+   
+}
